@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 overrides:
   bin-wrapper: npm:bin-wrapper-china
 
@@ -698,9 +694,6 @@ importers:
 
   packages/vbenComponents:
     dependencies:
-      '@ant-design/colors':
-        specifier: ^7.0.0
-        version: 7.0.0
       '@iconify/iconify':
         specifier: ^3.0.0
         version: 3.1.1
@@ -9282,7 +9275,7 @@ packages:
     hasBin: true
 
   /json-buffer@3.0.0:
-    resolution: {integrity: sha512-CuUqjv0FUZIdXkHPI8MezCnFCdaTAacej1TZYulLoAg1h/PhwkdXFN4V/gzY4g+fMBCOV2xF+rp7t2XD2ns/NQ==}
+    resolution: {integrity: sha1-Wx85evx11ne96Lz8Dkfh+aPZqJg=}
     dev: false
 
   /json-buffer@3.0.1:
@@ -14065,3 +14058,7 @@ packages:
     dependencies:
       tslib: 2.3.0
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
