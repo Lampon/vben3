@@ -1,5 +1,5 @@
 import { LAYOUT } from '../basic'
-import { t } from "@vben/locale";
+import { t } from '@vben/locale'
 
 const system: RouteRecordItem = {
   path: '/system',
@@ -20,7 +20,26 @@ const system: RouteRecordItem = {
       meta: {
         icon: 'majesticons:menu',
         title: t('routes.demo.system.menu'),
-        affix: true
+        affix: true,
+      },
+    },
+    {
+      path: 'account',
+      name: 'Account',
+      component: () => import('@/pages/demo/system/account/index.vue'),
+      meta: {
+        icon: 'mdi:account',
+        title: t('routes.demo.system.account'),
+        affix: true,
+      },
+    },
+    {
+      path: 'role',
+      name: 'Role',
+      component: () => import('@/pages/demo/system/role/index.vue'),
+      meta: {
+        icon: 'carbon:user-role',
+        title: t('routes.demo.system.role')
       }
     }
   ],
